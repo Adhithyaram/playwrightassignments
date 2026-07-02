@@ -1,0 +1,27 @@
+lastIndexOf starts checking from end of string
+index always starts from 0 and negative index starts from negation of length
+for Playwright, Length is 10, Index is between 0 to 9 and Negative Index is between -10 to -1
+subString(4,9) is same as subString(9,4)
+subString do not understand negative index, it is treated as index 0
+subString includes start index but excludes end index
+
+slice is a modern JS method replacing subString
+Convenient to use when the String size is varying and better to handle strings compared to substring
+slice works exactly same as subString, except start and end index are not swappable which means slice(4,9) is not the same as slice(9,4)
+start index should always be lower than end index. when start is bigger than end, the result will be empty.
+
+arrays are collection of data, can hold more than one value in the memory
+Javascript arrays are dynamic in size.
+Javascript arrays are heterogenous in nature which means different data types can be held in a single array
+
+push()=> append element to the end of an array. can contain any number of parameters
+pop()=>deletes the last element in the array, at index length-1
+unshift()=>add element(s) to the front of an array. can contain any number of parameters
+shift()=>remove first element in the array, at index 0
+slice()=>extract a part of an array without modifying the existing array. works like how it does with string
+splice()=>add or remove elements from an array. start index and delete count are mandatory. splice(startIndex, deletionCount, <optional replacement>)
+sort()=>sorts elements based on ascii values. for heterogenous array arrow function to be used.
+Set(argument)=>identifies only unique values in the array. To print, either do console.log(setArray) or Array.from(setArray)
+
+sorting of numbers in an array would not work. shoudl use arrow function to perform sorting
+numberArray.sort((a,b)=>a-b)

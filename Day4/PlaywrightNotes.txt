@@ -1,0 +1,22 @@
+Playwright is not built for Internet Explorer
+Playwright works with Safari, Chromium, Firefox
+Advantages
+Device emulation
+Network interception
+Record & Capture screenshots/videos
+Cross browser & Cross platform compatible
+Execution is faster
+
+Location of a web element is through Locators which is nothing but the javascript mapping of the element to uniquely identify the element
+playwright.dev has complete documentation
+Playwright has binaries of chromium, firefox, webkit (safari) are within playwright library. Unlike selenium we do not need to download & install browser drivers.
+selenium uses w3c protocol, playwright uses websocket protocol
+library gets auto updated
+chrome & edge usage needs binaries to be installed
+Browser Automation Protocol is the mode of interaction between driver/library and browser
+w3c is http protocol, 
+- request gets a response and connection is closed
+- stateless, connection is not permanent
+websocket is permanent connection between client n server
+- stateful, connection is permanent
+- live applications with live updating data

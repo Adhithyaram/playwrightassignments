@@ -1,0 +1,10 @@
+Objects work as Key value pairs
+To retrieve a value, '.' operator is used to access the key within the object to retrieve the value.
+
+Types of Functions
+1. named functions
+2. parameterized functions
+3. returning functions
+4. anonymous functions/function expression => instead of function add(a,b) let x=function (a,b)
+5. arrow functions "=>" to be used; instead of function add(a,b), use let x=(a,b)==>{...}
+6. call back functions=> pass functions as argument to another function
