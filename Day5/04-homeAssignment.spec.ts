@@ -14,7 +14,7 @@
 
 import { test } from "@playwright/test"
 
-test("learn to interact with web elements using css",
+test("Create a lead",
     async ({ page }) => { //page fixture that takes care of opening and closing of a browser. 
 
         //open the salesfore application
